@@ -1,7 +1,7 @@
 # SSH key for Git
 There are two ways of connecting to Git repositories. 
-1. HTTPS: It needs to set appropriate username and password. 
-2. SSH: It doesn't need username and password and works with SSH public key. Because of that it is much easier and convenient way to work with git. It gives you more freedom of dealing with your repositories.
+1. `HTTPS`: It needs to set appropriate username and password. 
+2. `SSH`: It doesn't need username and password and works with SSH public key. Because of that it is much easier and convenient way to work with git. It gives you more freedom of dealing with your repositories.
 
 # How to generate SSH key for Git
 First, you should check to make sure you don’t already have a key. By default, a user’s SSH keys are stored in that user’s `~/.ssh` directory. You can easily check to see if you have a key already by going to that directory and listing the contents:
